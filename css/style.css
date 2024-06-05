@@ -200,74 +200,99 @@ body {
   color: #000;
 }
 
-  /* Dropdown Filter Menu */
-  .sort-by {
-    margin-right: 6rem;
-    font-weight: 600;
-    color: var(--sidebar-bg-color);
-    text-align: center;
-    margin-top: 0.85rem;
-    padding-left: 2rem;
-  }
-  .dropdown-wrapper {
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-    margin-left: 6rem;
+/* Dropdown Filter Menu */
+.sort-by {
+  margin-right: 6rem;
+  font-weight: 600;
+  color: var(--sidebar-bg-color);
+  text-align: left;
+  margin-top: 0.85rem;
+  /* padding-left: 2rem; */
+  margin-bottom: 10px;
+}
+
+.drop-down-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+.dropdown-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-left: 6rem;
+  width: 45%;
+}
+
+.drops{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: -100px;
 }
 
 .dropdown-wrapper .drop-down {
-    position: relative;
-    padding: 10px 16px;
-    width: 150px;
-    font-weight: 600;
-    cursor: pointer;
-    background: #e6baa3;
-    color: white;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    margin-right: 3rem;
-}
-
-.dropdown-wrapper .drop-down .inner-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.dropdown-wrapper .drop-down select {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
+  padding: 10px 16px;
   width: 150px;
-  height: 100%;
-  opacity: 0;
+  font-weight: 600;
   cursor: pointer;
-  z-index: 1;
-  background-color: #e6baa3;
-  border: 1px solid #e6baa3;
+  background: #e6baa3;
+  color: white;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  border: 1px solidtransparent;
+  margin-right: 3rem;
+}
+.drop-down {
+  position: relative;
+}
+.dropdown-wrapper .drop-down .inner-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dropdown-wrapper .drop-down .drop-down-list {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  display: none;
+  list-style: none;
   padding: 0;
-  font-family: Raleway, sans-serif;
-  font-size: 1rem;
+  background-color: white;
+  border: 1px solid #e6baa3;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 150px;
 }
 
-.dropdown-wrapper .drop-down:hover  .drop-down select {
-    display: block;
+.dropdown-wrapper .drop-down:hover .drop-down-list {
+  display: block;
 }
-.dropdown-wrapper .drop-down  .drop-down select  {
-    padding: 8px 16px;
+
+.dropdown-wrapper .drop-down .drop-down-list li {
+  padding: 8px 16px;
 }
-.dropdown-wrapper .drop-down .drop-down select:hover {
-    background-color: #e6baa3;
-    color: white;
-    
+
+.dropdown-wrapper .drop-down .drop-down-list li a {
+  color: var(--sidebar-bg-color);
 }
+
+.dropdown-wrapper .drop-down .drop-down-list li:hover {
+  background-color: #e6baa3;
+  color: white;
+}
+
 .dropdown-wrapper .drop-down .icon {
-    font-size: 20px;
+  font-size: 20px;
 }
-
-
 
 /* Overview Styling */
 #overview {
@@ -796,15 +821,12 @@ color: #fff;
 }
 
 /* Styling Chart */
-#salesOvertime,#salesChart,#sizeChart,#low5Pizza,#top5Pizza
-,#quarterChart,#combinedChart{
-  width: 100% !important;
-  height: 300px !important; /* Sesuaikan dengan kebutuhan Anda */
+#kuartalChart,#low5Chart,#top5Chart,#metrics2Chart,#ingredientsChart,#salesOvertime,#salesDoughnutChart,#sizeChart,#lowestSalesChart,#highestSalesChart
+,#quarterlySalesChart,#combinedChart{
+width: 100% !important;
+height: 300px !important; /* Sesuaikan dengan kebutuhan Anda */
 }
 
-#low5Pizza,#top5Pizza,#combinedChart {
-  margin-top: -2rem;
-}
 /* Styling Data Table */
 table {
 width: 90%;

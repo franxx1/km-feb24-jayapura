@@ -98,20 +98,16 @@
             </div>
         </header>
 
-           <!-- Dropdown Menu -->
-           <div class="dropdown-wrapper">
-            <div class="sort-by">Sort by:</div>
-            <div class="drop-down">
-                <div class="inner-content" id="innerContent">Category
-                    <span class="material-icons icon">arrow_drop_down</span>
-                </div>
-                <select id="categoryFilter" onchange="updateCharts()">
-                    <option value="All">All</option>
-                    <option value="Classic">Classic</option>
-                    <option value="Supreme">Supreme</option>
-                    <option value="Veggie">Veggie</option>
-                    <option value="Chicken">Chicken</option>
-                </select>
+        <div class="dropdown-wrapper">
+            <div class="drops">
+                <label class="sort-by">Sort by:</label>
+                <select class="drop-down" id="categoryFilter" onchange="updateCharts()">Category
+                <option value="All">All</option>
+                <option value="Classic">Classic</option>
+                <option value="Supreme">Supreme</option>
+                <option value="Veggie">Veggie</option>
+                <option value="Chicken">Chicken</option>
+            </select>
             </div>
         </div>
        

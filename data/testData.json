@@ -1,5 +1,433 @@
 {
-  "lowest5Pizza" : [
+    
+    "MonthlyPizzaCategory" :[
+        {
+            "month": "April",
+            "category": "Classic",
+            "total_sales": "1286"
+          }, {
+            "month": "April",
+            "category": "Supreme",
+            "total_sales": "1010"
+          }, {
+            "month": "April",
+            "category": "Veggie",
+            "total_sales": "1001"
+          }, {
+            "month": "April",
+            "category": "Chicken",
+            "total_sales": "962"
+          }, {
+            "month": "August",
+            "category": "Classic",
+            "total_sales": "1294"
+          }, {
+            "month": "August",
+            "category": "Supreme",
+            "total_sales": "1019"
+          }, {
+            "month": "August",
+            "category": "Veggie",
+            "total_sales": "971"
+          }, {
+            "month": "August",
+            "category": "Chicken",
+            "total_sales": "938"
+          }, {
+            "month": "December",
+            "category": "Classic",
+            "total_sales": "1113"
+          }, {
+            "month": "December",
+            "category": "Veggie",
+            "total_sales": "891"
+          }, {
+            "month": "December",
+            "category": "Supreme",
+            "total_sales": "877"
+          }, {
+            "month": "December",
+            "category": "Chicken",
+            "total_sales": "815"
+          }, {
+            "month": "February",
+            "category": "Classic",
+            "total_sales": "1156"
+          }, {
+            "month": "February",
+            "category": "Supreme",
+            "total_sales": "926"
+          }, {
+            "month": "February",
+            "category": "Chicken",
+            "total_sales": "919"
+          }, {
+            "month": "February",
+            "category": "Veggie",
+            "total_sales": "892"
+          }, {
+            "month": "January",
+            "category": "Classic",
+            "total_sales": "1300"
+          }, {
+            "month": "January",
+            "category": "Supreme",
+            "total_sales": "1075"
+          }, {
+            "month": "January",
+            "category": "Veggie",
+            "total_sales": "1047"
+          }, {
+            "month": "January",
+            "category": "Chicken",
+            "total_sales": "939"
+          }, {
+            "month": "July",
+            "category": "Classic",
+            "total_sales": "1297"
+          }, {
+            "month": "July",
+            "category": "Supreme",
+            "total_sales": "1050"
+          }, {
+            "month": "July",
+            "category": "Veggie",
+            "total_sales": "1009"
+          }, {
+            "month": "July",
+            "category": "Chicken",
+            "total_sales": "954"
+          }, {
+            "month": "June",
+            "category": "Classic",
+            "total_sales": "1230"
+          }, {
+            "month": "June",
+            "category": "Supreme",
+            "total_sales": "1018"
+          }, {
+            "month": "June",
+            "category": "Veggie",
+            "total_sales": "957"
+          }, {
+            "month": "June",
+            "category": "Chicken",
+            "total_sales": "918"
+          }, {
+            "month": "March",
+            "category": "Classic",
+            "total_sales": "1298"
+          }, {
+            "month": "March",
+            "category": "Veggie",
+            "total_sales": "1058"
+          }, {
+            "month": "March",
+            "category": "Supreme",
+            "total_sales": "1011"
+          }, {
+            "month": "March",
+            "category": "Chicken",
+            "total_sales": "965"
+          }, {
+            "month": "May",
+            "category": "Classic",
+            "total_sales": "1240"
+          }, {
+            "month": "May",
+            "category": "Supreme",
+            "total_sales": "1012"
+          }, {
+            "month": "May",
+            "category": "Veggie",
+            "total_sales": "932"
+          }, {
+            "month": "May",
+            "category": "Chicken",
+            "total_sales": "899"
+          }, {
+            "month": "November",
+            "category": "Classic",
+            "total_sales": "1245"
+          }, {
+            "month": "November",
+            "category": "Supreme",
+            "total_sales": "1065"
+          }, {
+            "month": "November",
+            "category": "Veggie",
+            "total_sales": "1064"
+          }, {
+            "month": "November",
+            "category": "Chicken",
+            "total_sales": "939"
+          }, {
+            "month": "October",
+            "category": "Classic",
+            "total_sales": "1229"
+          }, {
+            "month": "October",
+            "category": "Supreme",
+            "total_sales": "1039"
+          }, {
+            "month": "October",
+            "category": "Veggie",
+            "total_sales": "966"
+          }, {
+            "month": "October",
+            "category": "Chicken",
+            "total_sales": "888"
+          }, {
+            "month": "September",
+            "category": "Classic",
+            "total_sales": "1200"
+          }, {
+            "month": "September",
+            "category": "Chicken",
+            "total_sales": "914"
+          }, {
+            "month": "September",
+            "category": "Supreme",
+            "total_sales": "885"
+          }, {
+            "month": "September",
+            "category": "Veggie",
+            "total_sales": "861"
+          }
+    ],
+    "PizzaSalesOvertime" : [
+        {
+            "tier_waktu": "Makan Siang",
+            "category": "Classic",
+            "total_sales_time": "8897"
+          }, {
+            "tier_waktu": "Makan Siang",
+            "category": "Supreme",
+            "total_sales_time": "7085"
+          }, {
+            "tier_waktu": "Makan Siang",
+            "category": "Veggie",
+            "total_sales_time": "6936"
+          }, {
+            "tier_waktu": "Makan Siang",
+            "category": "Chicken",
+            "total_sales_time": "6550"
+          }, {
+            "tier_waktu": "Makan Malam",
+            "category": "Classic",
+            "total_sales_time": "5123"
+          }, {
+            "tier_waktu": "Makan Malam",
+            "category": "Supreme",
+            "total_sales_time": "4222"
+          }, {
+            "tier_waktu": "Makan Malam",
+            "category": "Veggie",
+            "total_sales_time": "4113"
+          }, {
+            "tier_waktu": "Makan Malam",
+            "category": "Chicken",
+            "total_sales_time": "3898"
+          }, {
+            "tier_waktu": "Makan Pagi",
+            "category": "Classic",
+            "total_sales_time": "868"
+          }, {
+            "tier_waktu": "Makan Pagi",
+            "category": "Supreme",
+            "total_sales_time": "680"
+          }, {
+            "tier_waktu": "Makan Pagi",
+            "category": "Chicken",
+            "total_sales_time": "602"
+          }, {
+            "tier_waktu": "Makan Pagi",
+            "category": "Veggie",
+            "total_sales_time": "600"
+          }
+    ],
+    "PizzasizeSales" : [
+        {
+            "size": "S",
+            "category": "Classic",
+            "total_sales_size": "6139"
+          }, {
+            "size": "L",
+            "category": "Veggie",
+            "total_sales_size": "5403"
+          }, {
+            "size": "L",
+            "category": "Chicken",
+            "total_sales_size": "4932"
+          }, {
+            "size": "L",
+            "category": "Supreme",
+            "total_sales_size": "4564"
+          }, {
+            "size": "M",
+            "category": "Classic",
+            "total_sales_size": "4112"
+          }, {
+            "size": "L",
+            "category": "Classic",
+            "total_sales_size": "4057"
+          }, {
+            "size": "M",
+            "category": "Supreme",
+            "total_sales_size": "4046"
+          }, {
+            "size": "M",
+            "category": "Chicken",
+            "total_sales_size": "3894"
+          }, {
+            "size": "M",
+            "category": "Veggie",
+            "total_sales_size": "3583"
+          }, {
+            "size": "S",
+            "category": "Supreme",
+            "total_sales_size": "3377"
+          }, {
+            "size": "S",
+            "category": "Veggie",
+            "total_sales_size": "2663"
+          }, {
+            "size": "S",
+            "category": "Chicken",
+            "total_sales_size": "2224"
+          }, {
+            "size": "XL",
+            "category": "Classic",
+            "total_sales_size": "552"
+          }, {
+            "size": "XXL",
+            "category": "Classic",
+            "total_sales_size": "28"
+          }
+    ],
+    "QuaterlyPizza" :[
+        {
+            "kuartal": "Q3",
+            "category": "Classic",
+            "total_sales_quartal": "3791"
+          }, {
+            "kuartal": "Q2",
+            "category": "Classic",
+            "total_sales_quartal": "3756"
+          }, {
+            "kuartal": "Q1",
+            "category": "Classic",
+            "total_sales_quartal": "3754"
+          }, {
+            "kuartal": "Q4",
+            "category": "Classic",
+            "total_sales_quartal": "3587"
+          }, {
+            "kuartal": "Q2",
+            "category": "Supreme",
+            "total_sales_quartal": "3040"
+          }, {
+            "kuartal": "Q1",
+            "category": "Supreme",
+            "total_sales_quartal": "3012"
+          }, {
+            "kuartal": "Q1",
+            "category": "Veggie",
+            "total_sales_quartal": "2997"
+          }, {
+            "kuartal": "Q4",
+            "category": "Supreme",
+            "total_sales_quartal": "2981"
+          }, {
+            "kuartal": "Q3",
+            "category": "Supreme",
+            "total_sales_quartal": "2954"
+          }, {
+            "kuartal": "Q4",
+            "category": "Veggie",
+            "total_sales_quartal": "2921"
+          }, {
+            "kuartal": "Q2",
+            "category": "Veggie",
+            "total_sales_quartal": "2890"
+          }, {
+            "kuartal": "Q3",
+            "category": "Veggie",
+            "total_sales_quartal": "2841"
+          }, {
+            "kuartal": "Q1",
+            "category": "Chicken",
+            "total_sales_quartal": "2823"
+          }, {
+            "kuartal": "Q3",
+            "category": "Chicken",
+            "total_sales_quartal": "2806"
+          }, {
+            "kuartal": "Q2",
+            "category": "Chicken",
+            "total_sales_quartal": "2779"
+          }, {
+            "kuartal": "Q4",
+            "category": "Chicken",
+            "total_sales_quartal": "2642"
+          }
+    ],
+    "top5Pizza" :[
+        {
+            "name": "The Classic Deluxe Pizza",
+            "category": "Classic",
+            "highest_sales": "2453"
+          }, {
+            "name": "The Barbecue Chicken Pizza",
+            "category": "Chicken",
+            "highest_sales": "2432"
+          }, {
+            "name": "The Hawaiian Pizza",
+            "category": "Classic",
+            "highest_sales": "2422"
+          }, {
+            "name": "The Pepperoni Pizza",
+            "category": "Classic",
+            "highest_sales": "2418"
+          }, {
+            "name": "The Thai Chicken Pizza",
+            "category": "Chicken",
+            "highest_sales": "2371"
+          }
+        
+    ],
+    "totalOrder":[
+      {
+        "category": "Chicken",
+        "quantity": "11050"
+      }, {
+        "category": "Classic",
+        "quantity": "14888"
+      }, {
+        "category": "Veggie",
+        "quantity": "11649"
+      }, {
+        "category": "Supreme",
+        "quantity": "11987"
+      }
+      
+    ],
+    "totalRevenue": [
+      {
+        "category": "Chicken",
+        "revenue": "$195919.5"
+      }, {
+        "category": "Classic",
+        "revenue": "$220053.1"
+      }, {
+        "category": "Veggie",
+        "revenue": "$193690.45"
+      }, {
+        "category": "Supreme",
+        "revenue": "$208197"
+      }
+    ],
+    "lowest5Pizza" : [
       {
           "name": "The Brie Carre Pizza",
           "category": "Supreme",
@@ -22,1085 +450,387 @@
           "lowest_sales": "961"
         }
   ],
-
-
-  "MonthlyPizzaCategory" :[
-      {
-          "month": "April",
-          "category": "Classic",
-          "total_sales": "1286"
-        }, {
-          "month": "April",
-          "category": "Supreme",
-          "total_sales": "1010"
-        }, {
-          "month": "April",
-          "category": "Veggie",
-          "total_sales": "1001"
-        }, {
-          "month": "April",
-          "category": "Chicken",
-          "total_sales": "962"
-        }, {
-          "month": "August",
-          "category": "Classic",
-          "total_sales": "1294"
-        }, {
-          "month": "August",
-          "category": "Supreme",
-          "total_sales": "1019"
-        }, {
-          "month": "August",
-          "category": "Veggie",
-          "total_sales": "971"
-        }, {
-          "month": "August",
-          "category": "Chicken",
-          "total_sales": "938"
-        }, {
-          "month": "December",
-          "category": "Classic",
-          "total_sales": "1113"
-        }, {
-          "month": "December",
-          "category": "Veggie",
-          "total_sales": "891"
-        }, {
-          "month": "December",
-          "category": "Supreme",
-          "total_sales": "877"
-        }, {
-          "month": "December",
-          "category": "Chicken",
-          "total_sales": "815"
-        }, {
-          "month": "February",
-          "category": "Classic",
-          "total_sales": "1156"
-        }, {
-          "month": "February",
-          "category": "Supreme",
-          "total_sales": "926"
-        }, {
-          "month": "February",
-          "category": "Chicken",
-          "total_sales": "919"
-        }, {
-          "month": "February",
-          "category": "Veggie",
-          "total_sales": "892"
-        }, {
-          "month": "January",
-          "category": "Classic",
-          "total_sales": "1300"
-        }, {
-          "month": "January",
-          "category": "Supreme",
-          "total_sales": "1075"
-        }, {
-          "month": "January",
-          "category": "Veggie",
-          "total_sales": "1047"
-        }, {
-          "month": "January",
-          "category": "Chicken",
-          "total_sales": "939"
-        }, {
-          "month": "July",
-          "category": "Classic",
-          "total_sales": "1297"
-        }, {
-          "month": "July",
-          "category": "Supreme",
-          "total_sales": "1050"
-        }, {
-          "month": "July",
-          "category": "Veggie",
-          "total_sales": "1009"
-        }, {
-          "month": "July",
-          "category": "Chicken",
-          "total_sales": "954"
-        }, {
-          "month": "June",
-          "category": "Classic",
-          "total_sales": "1230"
-        }, {
-          "month": "June",
-          "category": "Supreme",
-          "total_sales": "1018"
-        }, {
-          "month": "June",
-          "category": "Veggie",
-          "total_sales": "957"
-        }, {
-          "month": "June",
-          "category": "Chicken",
-          "total_sales": "918"
-        }, {
-          "month": "March",
-          "category": "Classic",
-          "total_sales": "1298"
-        }, {
-          "month": "March",
-          "category": "Veggie",
-          "total_sales": "1058"
-        }, {
-          "month": "March",
-          "category": "Supreme",
-          "total_sales": "1011"
-        }, {
-          "month": "March",
-          "category": "Chicken",
-          "total_sales": "965"
-        }, {
-          "month": "May",
-          "category": "Classic",
-          "total_sales": "1240"
-        }, {
-          "month": "May",
-          "category": "Supreme",
-          "total_sales": "1012"
-        }, {
-          "month": "May",
-          "category": "Veggie",
-          "total_sales": "932"
-        }, {
-          "month": "May",
-          "category": "Chicken",
-          "total_sales": "899"
-        }, {
-          "month": "November",
-          "category": "Classic",
-          "total_sales": "1245"
-        }, {
-          "month": "November",
-          "category": "Supreme",
-          "total_sales": "1065"
-        }, {
-          "month": "November",
-          "category": "Veggie",
-          "total_sales": "1064"
-        }, {
-          "month": "November",
-          "category": "Chicken",
-          "total_sales": "939"
-        }, {
-          "month": "October",
-          "category": "Classic",
-          "total_sales": "1229"
-        }, {
-          "month": "October",
-          "category": "Supreme",
-          "total_sales": "1039"
-        }, {
-          "month": "October",
-          "category": "Veggie",
-          "total_sales": "966"
-        }, {
-          "month": "October",
-          "category": "Chicken",
-          "total_sales": "888"
-        }, {
-          "month": "September",
-          "category": "Classic",
-          "total_sales": "1200"
-        }, {
-          "month": "September",
-          "category": "Chicken",
-          "total_sales": "914"
-        }, {
-          "month": "September",
-          "category": "Supreme",
-          "total_sales": "885"
-        }, {
-          "month": "September",
-          "category": "Veggie",
-          "total_sales": "861"
-        }
+  "CombinedMetrics": [
+    {
+      "tier_waktu": "Makan Siang",
+      "category": "Classic",
+      "total_sales_time": "8897"
+    },
+    {
+      "tier_waktu": "Makan Siang",
+      "category": "Supreme",
+      "total_sales_time": "7085"
+    },
+    {
+      "tier_waktu": "Makan Siang",
+      "category": "Veggie",
+      "total_sales_time": "6936"
+    },
+    {
+      "tier_waktu": "Makan Siang",
+      "category": "Chicken",
+      "total_sales_time": "6550"
+    },
+    {
+      "tier_waktu": "Makan Malam",
+      "category": "Classic",
+      "total_sales_time": "5123"
+    },
+    {
+      "tier_waktu": "Makan Malam",
+      "category": "Supreme",
+      "total_sales_time": "4222"
+    },
+    {
+      "tier_waktu": "Makan Malam",
+      "category": "Veggie",
+      "total_sales_time": "4113"
+    },
+    {
+      "tier_waktu": "Makan Malam",
+      "category": "Chicken",
+      "total_sales_time": "3898"
+    },
+    {
+      "tier_waktu": "Makan Pagi",
+      "category": "Classic",
+      "total_sales_time": "868"
+    },
+    {
+      "tier_waktu": "Makan Pagi",
+      "category": "Supreme",
+      "total_sales_time": "680"
+    },
+    {
+      "tier_waktu": "Makan Pagi",
+      "category": "Chicken",
+      "total_sales_time": "602"
+    },
+    {
+      "tier_waktu": "Makan Pagi",
+      "category": "Veggie",
+      "total_sales_time": "600"
+    }
   ],
-
-
-  "PizzaSalesOvertime" : [
-      {
-          "tier_waktu": "Makan Siang",
-          "category": "Classic",
-          "total_sales_time": "8897"
-        }, {
-          "tier_waktu": "Makan Siang",
-          "category": "Supreme",
-          "total_sales_time": "7085"
-        }, {
-          "tier_waktu": "Makan Siang",
-          "category": "Veggie",
-          "total_sales_time": "6936"
-        }, {
-          "tier_waktu": "Makan Siang",
-          "category": "Chicken",
-          "total_sales_time": "6550"
-        }, {
-          "tier_waktu": "Makan Malam",
-          "category": "Classic",
-          "total_sales_time": "5123"
-        }, {
-          "tier_waktu": "Makan Malam",
-          "category": "Supreme",
-          "total_sales_time": "4222"
-        }, {
-          "tier_waktu": "Makan Malam",
-          "category": "Veggie",
-          "total_sales_time": "4113"
-        }, {
-          "tier_waktu": "Makan Malam",
-          "category": "Chicken",
-          "total_sales_time": "3898"
-        }, {
-          "tier_waktu": "Makan Pagi",
-          "category": "Classic",
-          "total_sales_time": "868"
-        }, {
-          "tier_waktu": "Makan Pagi",
-          "category": "Supreme",
-          "total_sales_time": "680"
-        }, {
-          "tier_waktu": "Makan Pagi",
-          "category": "Chicken",
-          "total_sales_time": "602"
-        }, {
-          "tier_waktu": "Makan Pagi",
-          "category": "Veggie",
-          "total_sales_time": "600"
-        }
+  "MostUseIngredients":[
+    {
+      "ingredient": " Garlic",
+      "jumlah": "27422"
+    }, {
+      "ingredient": " Tomatoes",
+      "jumlah": "23694"
+    }, {
+      "ingredient": " Red Onions",
+      "jumlah": "19547"
+    }, {
+      "ingredient": " Red Peppers",
+      "jumlah": "16284"
+    }, {
+      "ingredient": "Chicken",
+      "jumlah": "8443"
+    }, {
+      "ingredient": " Mushrooms",
+      "jumlah": "8114"
+    }, {
+      "ingredient": " Mozzarella Cheese",
+      "jumlah": "6605"
+    }, {
+      "ingredient": " Pepperoni",
+      "jumlah": "6542"
+    }, {
+      "ingredient": " Green Olives",
+      "jumlah": "6174"
+    }, {
+      "ingredient": " Artichokes",
+      "jumlah": "5682"
+    }, {
+      "ingredient": " Jalapeno Peppers",
+      "jumlah": "5643"
+    }, {
+      "ingredient": "Spinach",
+      "jumlah": "5239"
+    }, {
+      "ingredient": " Green Peppers",
+      "jumlah": "5224"
+    }, {
+      "ingredient": " Spinach",
+      "jumlah": "4773"
+    }, {
+      "ingredient": " Feta Cheese",
+      "jumlah": "4748"
+    }, {
+      "ingredient": " Pineapple",
+      "jumlah": "4685"
+    }, {
+      "ingredient": "Pepperoni",
+      "jumlah": "3758"
+    }, {
+      "ingredient": "Mozzarella Cheese",
+      "jumlah": "3728"
+    }, {
+      "ingredient": " Asiago Cheese",
+      "jumlah": "3342"
+    }, {
+      "ingredient": " Cilantro",
+      "jumlah": "3341"
+    }, {
+      "ingredient": " Corn",
+      "jumlah": "3341"
+    }, {
+      "ingredient": " Chipotle Sauce",
+      "jumlah": "3341"
+    }, {
+      "ingredient": "Capocollo",
+      "jumlah": "3301"
+    }, {
+      "ingredient": " Goat Cheese",
+      "jumlah": "3301"
+    }, {
+      "ingredient": " Capocollo",
+      "jumlah": "3271"
+    }, {
+      "ingredient": " Fontina Cheese",
+      "jumlah": "3259"
+    }, {
+      "ingredient": "Tomatoes",
+      "jumlah": "2907"
+    }, {
+      "ingredient": " Pesto Sauce",
+      "jumlah": "2893"
+    }, {
+      "ingredient": " Zucchini",
+      "jumlah": "2485"
+    }, {
+      "ingredient": " Bacon",
+      "jumlah": "2416"
+    }, {
+      "ingredient": "Barbecued Chicken",
+      "jumlah": "2372"
+    }, {
+      "ingredient": " Barbecue Sauce",
+      "jumlah": "2372"
+    }, {
+      "ingredient": "Sliced Ham",
+      "jumlah": "2370"
+    }, {
+      "ingredient": " Thai Sweet Chilli Sauce",
+      "jumlah": "2315"
+    }, {
+      "ingredient": " Artichoke",
+      "jumlah": "2302"
+    }, {
+      "ingredient": " Gouda Cheese",
+      "jumlah": "2302"
+    }, {
+      "ingredient": "Coarse Sicilian Salami",
+      "jumlah": "1887"
+    }, {
+      "ingredient": " Luganega Sausage",
+      "jumlah": "1887"
+    }, {
+      "ingredient": " Onions",
+      "jumlah": "1887"
+    }, {
+      "ingredient": " Peperoncini verdi",
+      "jumlah": "1887"
+    }, {
+      "ingredient": " Sun-dried Tomatoes",
+      "jumlah": "1880"
+    }, {
+      "ingredient": " Kalamata Olives",
+      "jumlah": "1863"
+    }, {
+      "ingredient": "Ricotta Cheese",
+      "jumlah": "1850"
+    }, {
+      "ingredient": " Gorgonzola Piccante Cheese",
+      "jumlah": "1850"
+    }, {
+      "ingredient": " Parmigiano Reggiano Cheese",
+      "jumlah": "1850"
+    }, {
+      "ingredient": "Calabrese Salami",
+      "jumlah": "1849"
+    }, {
+      "ingredient": "Bacon",
+      "jumlah": "1811"
+    }, {
+      "ingredient": " Italian Sausage",
+      "jumlah": "1811"
+    }, {
+      "ingredient": " Chorizo Sausage",
+      "jumlah": "1811"
+    }, {
+      "ingredient": "Mushrooms",
+      "jumlah": "1510"
+    }, {
+      "ingredient": " Anchovies",
+      "jumlah": "1451"
+    }, {
+      "ingredient": "Prosciutto di San Daniele",
+      "jumlah": "1428"
+    }, {
+      "ingredient": " Arugula",
+      "jumlah": "1428"
+    }, {
+      "ingredient": "Genoa Salami",
+      "jumlah": "1422"
+    }, {
+      "ingredient": " Oregano",
+      "jumlah": "1414"
+    }, {
+      "ingredient": "Kalamata Olives",
+      "jumlah": "1406"
+    }, {
+      "ingredient": " Beef Chuck Roast",
+      "jumlah": "1406"
+    }, {
+      "ingredient": " Provolone Cheese",
+      "jumlah": "1359"
+    }, {
+      "ingredient": " Smoked Gouda Cheese",
+      "jumlah": "1359"
+    }, {
+      "ingredient": " Romano Cheese",
+      "jumlah": "1359"
+    }, {
+      "ingredient": " Blue Cheese",
+      "jumlah": "1359"
+    }, {
+      "ingredient": " Alfredo Sauce",
+      "jumlah": "980"
+    }, {
+      "ingredient": "Eggplant",
+      "jumlah": "975"
+    }, {
+      "ingredient": "Soppressata Salami",
+      "jumlah": "957"
+    }, {
+      "ingredient": "Nduja Salami",
+      "jumlah": "927"
+    }, {
+      "ingredient": " Pancetta",
+      "jumlah": "927"
+    }, {
+      "ingredient": " Friggitello Peppers",
+      "jumlah": "927"
+    }, {
+      "ingredient": " Plum Tomatoes",
+      "jumlah": "923"
+    }, {
+      "ingredient": "Brie Carre Cheese",
+      "jumlah": "480"
+    }, {
+      "ingredient": " Prosciutto",
+      "jumlah": "480"
+    }, {
+      "ingredient": " Caramelized Onions",
+      "jumlah": "480"
+    }, {
+      "ingredient": " Pears",
+      "jumlah": "480"
+    }, {
+      "ingredient": " Thyme",
+      "jumlah": "480"
+    }
   ],
-
-
-  "PizzasizeSales" : [
-      {
-          "size": "S",
-          "category": "Classic",
-          "total_sales_size": "6139"
-        }, {
-          "size": "L",
-          "category": "Veggie",
-          "total_sales_size": "5403"
-        }, {
-          "size": "L",
-          "category": "Chicken",
-          "total_sales_size": "4932"
-        }, {
-          "size": "L",
-          "category": "Supreme",
-          "total_sales_size": "4564"
-        }, {
-          "size": "M",
-          "category": "Classic",
-          "total_sales_size": "4112"
-        }, {
-          "size": "L",
-          "category": "Classic",
-          "total_sales_size": "4057"
-        }, {
-          "size": "M",
-          "category": "Supreme",
-          "total_sales_size": "4046"
-        }, {
-          "size": "M",
-          "category": "Chicken",
-          "total_sales_size": "3894"
-        }, {
-          "size": "M",
-          "category": "Veggie",
-          "total_sales_size": "3583"
-        }, {
-          "size": "S",
-          "category": "Supreme",
-          "total_sales_size": "3377"
-        }, {
-          "size": "S",
-          "category": "Veggie",
-          "total_sales_size": "2663"
-        }, {
-          "size": "S",
-          "category": "Chicken",
-          "total_sales_size": "2224"
-        }, {
-          "size": "XL",
-          "category": "Classic",
-          "total_sales_size": "552"
-        }, {
-          "size": "XXL",
-          "category": "Classic",
-          "total_sales_size": "28"
-        }
-  ],
-
-
-  "QuaterlyPizza" :[
-      {
-          "kuartal": "Q3",
-          "category": "Classic",
-          "total_sales_quartal": "3791"
-        }, {
-          "kuartal": "Q2",
-          "category": "Classic",
-          "total_sales_quartal": "3756"
-        }, {
-          "kuartal": "Q1",
-          "category": "Classic",
-          "total_sales_quartal": "3754"
-        }, {
-          "kuartal": "Q4",
-          "category": "Classic",
-          "total_sales_quartal": "3587"
-        }, {
-          "kuartal": "Q2",
-          "category": "Supreme",
-          "total_sales_quartal": "3040"
-        }, {
-          "kuartal": "Q1",
-          "category": "Supreme",
-          "total_sales_quartal": "3012"
-        }, {
-          "kuartal": "Q1",
-          "category": "Veggie",
-          "total_sales_quartal": "2997"
-        }, {
-          "kuartal": "Q4",
-          "category": "Supreme",
-          "total_sales_quartal": "2981"
-        }, {
-          "kuartal": "Q3",
-          "category": "Supreme",
-          "total_sales_quartal": "2954"
-        }, {
-          "kuartal": "Q4",
-          "category": "Veggie",
-          "total_sales_quartal": "2921"
-        }, {
-          "kuartal": "Q2",
-          "category": "Veggie",
-          "total_sales_quartal": "2890"
-        }, {
-          "kuartal": "Q3",
-          "category": "Veggie",
-          "total_sales_quartal": "2841"
-        }, {
-          "kuartal": "Q1",
-          "category": "Chicken",
-          "total_sales_quartal": "2823"
-        }, {
-          "kuartal": "Q3",
-          "category": "Chicken",
-          "total_sales_quartal": "2806"
-        }, {
-          "kuartal": "Q2",
-          "category": "Chicken",
-          "total_sales_quartal": "2779"
-        }, {
-          "kuartal": "Q4",
-          "category": "Chicken",
-          "total_sales_quartal": "2642"
-        }
-  ],
-
-
-  "top5Pizza" :[
-      {
-          "name": "The Classic Deluxe Pizza",
-          "category": "Classic",
-          "highest_sales": "2453"
-        }, {
-          "name": "The Barbecue Chicken Pizza",
-          "category": "Chicken",
-          "highest_sales": "2432"
-        }, {
-          "name": "The Hawaiian Pizza",
-          "category": "Classic",
-          "highest_sales": "2422"
-        }, {
-          "name": "The Pepperoni Pizza",
-          "category": "Classic",
-          "highest_sales": "2418"
-        }, {
-          "name": "The Thai Chicken Pizza",
-          "category": "Chicken",
-          "highest_sales": "2371"
-        }
-  ],
-
-  
-  "MostUseIngredients":[{
-    "ingredient": " Garlic",
-    "jumlah": "10349",
-    "category": "Supreme"
-  }, {
-    "ingredient": " Garlic",
-    "jumlah": "9539",
-    "category": "Veggie"
-  }, {
-    "ingredient": " Tomatoes",
-    "jumlah": "8912",
-    "category": "Supreme"
-  }, {
-    "ingredient": " Red Peppers",
-    "jumlah": "8513",
-    "category": "Chicken"
-  }, {
-    "ingredient": "Chicken",
-    "jumlah": "8443",
-    "category": "Chicken"
-  }, {
-    "ingredient": " Tomatoes",
-    "jumlah": "7533",
-    "category": "Chicken"
-  }, {
-    "ingredient": " Red Onions",
-    "jumlah": "5321",
-    "category": "Veggie"
-  }, {
-    "ingredient": " Red Onions",
-    "jumlah": "5273",
-    "category": "Classic"
-  }, {
-    "ingredient": " Red Onions",
-    "jumlah": "5237",
-    "category": "Chicken"
-  }, {
-    "ingredient": " Tomatoes",
-    "jumlah": "4429",
-    "category": "Veggie"
-  }, {
-    "ingredient": "Spinach",
-    "jumlah": "4299",
-    "category": "Veggie"
-  }, {
-    "ingredient": " Garlic",
-    "jumlah": "4271",
-    "category": "Classic"
-  }, {
-    "ingredient": " Jalapeno Peppers",
-    "jumlah": "4187",
-    "category": "Chicken"
-  }, {
-    "ingredient": " Pepperoni",
-    "jumlah": "4180",
-    "category": "Classic"
-  }, {
-    "ingredient": " Red Peppers",
-    "jumlah": "3941",
-    "category": "Veggie"
-  }, {
-    "ingredient": " Red Peppers",
-    "jumlah": "3830",
-    "category": "Classic"
-  }, {
-    "ingredient": "Pepperoni",
-    "jumlah": "3758",
-    "category": "Classic"
-  }, {
-    "ingredient": " Mushrooms",
-    "jumlah": "3758",
-    "category": "Classic"
-  }, {
-    "ingredient": " Green Olives",
-    "jumlah": "3736",
-    "category": "Supreme"
-  }, {
-    "ingredient": " Red Onions",
-    "jumlah": "3716",
-    "category": "Supreme"
-  }, {
-    "ingredient": " Feta Cheese",
-    "jumlah": "3342",
-    "category": "Veggie"
-  }, {
-    "ingredient": " Capocollo",
-    "jumlah": "3271",
-    "category": "Supreme"
-  }, {
-    "ingredient": " Spinach",
-    "jumlah": "3263",
-    "category": "Chicken"
-  }, {
-    "ingredient": " Garlic",
-    "jumlah": "3263",
-    "category": "Chicken"
-  }, {
-    "ingredient": " Artichokes",
-    "jumlah": "2855",
-    "category": "Veggie"
-  }, {
-    "ingredient": " Artichokes",
-    "jumlah": "2827",
-    "category": "Supreme"
-  }, {
-    "ingredient": " Tomatoes",
-    "jumlah": "2820",
-    "category": "Classic"
-  }, {
-    "ingredient": " Zucchini",
-    "jumlah": "2485",
-    "category": "Veggie"
-  }, {
-    "ingredient": " Mushrooms",
-    "jumlah": "2419",
-    "category": "Veggie"
-  }, {
-    "ingredient": " Bacon",
-    "jumlah": "2416",
-    "category": "Classic"
-  }, {
-    "ingredient": " Mozzarella Cheese",
-    "jumlah": "2385",
-    "category": "Supreme"
-  }, {
-    "ingredient": "Barbecued Chicken",
-    "jumlah": "2372",
-    "category": "Chicken"
-  }, {
-    "ingredient": " Green Peppers",
-    "jumlah": "2372",
-    "category": "Chicken"
-  }, {
-    "ingredient": " Barbecue Sauce",
-    "jumlah": "2372",
-    "category": "Chicken"
-  }, {
-    "ingredient": "Sliced Ham",
-    "jumlah": "2370",
-    "category": "Classic"
-  }, {
-    "ingredient": " Pineapple",
-    "jumlah": "2370",
-    "category": "Classic"
-  }, {
-    "ingredient": " Mozzarella Cheese",
-    "jumlah": "2370",
-    "category": "Classic"
-  }, {
-    "ingredient": "Mozzarella Cheese",
-    "jumlah": "2369",
-    "category": "Classic"
-  }, {
-    "ingredient": " Pepperoni",
-    "jumlah": "2362",
-    "category": "Supreme"
-  }, {
-    "ingredient": " Asiago Cheese",
-    "jumlah": "2362",
-    "category": "Supreme"
-  }, {
-    "ingredient": " Pineapple",
-    "jumlah": "2315",
-    "category": "Chicken"
-  }, {
-    "ingredient": " Thai Sweet Chilli Sauce",
-    "jumlah": "2315",
-    "category": "Chicken"
-  }, {
-    "ingredient": " Artichoke",
-    "jumlah": "2302",
-    "category": "Chicken"
-  }, {
-    "ingredient": " Fontina Cheese",
-    "jumlah": "2302",
-    "category": "Chicken"
-  }, {
-    "ingredient": " Gouda Cheese",
-    "jumlah": "2302",
-    "category": "Chicken"
-  }, {
-    "ingredient": " Pesto Sauce",
-    "jumlah": "1932",
-    "category": "Veggie"
-  }, {
-    "ingredient": "Coarse Sicilian Salami",
-    "jumlah": "1887",
-    "category": "Supreme"
-  }, {
-    "ingredient": " Luganega Sausage",
-    "jumlah": "1887",
-    "category": "Supreme"
-  }, {
-    "ingredient": " Onions",
-    "jumlah": "1887",
-    "category": "Supreme"
-  }, {
-    "ingredient": "Capocollo",
-    "jumlah": "1887",
-    "category": "Supreme"
-  }, {
-    "ingredient": " Goat Cheese",
-    "jumlah": "1887",
-    "category": "Supreme"
-  }, {
-    "ingredient": " Peperoncini verdi",
-    "jumlah": "1887",
-    "category": "Supreme"
-  }, {
-    "ingredient": " Corn",
-    "jumlah": "1885",
-    "category": "Chicken"
-  }, {
-    "ingredient": " Cilantro",
-    "jumlah": "1885",
-    "category": "Chicken"
-  }, {
-    "ingredient": " Chipotle Sauce",
-    "jumlah": "1885",
-    "category": "Chicken"
-  }, {
-    "ingredient": " Sun-dried Tomatoes",
-    "jumlah": "1880",
-    "category": "Veggie"
-  }, {
-    "ingredient": "Ricotta Cheese",
-    "jumlah": "1850",
-    "category": "Veggie"
-  }, {
-    "ingredient": " Gorgonzola Piccante Cheese",
-    "jumlah": "1850",
-    "category": "Veggie"
-  }, {
-    "ingredient": " Mozzarella Cheese",
-    "jumlah": "1850",
-    "category": "Veggie"
-  }, {
-    "ingredient": " Parmigiano Reggiano Cheese",
-    "jumlah": "1850",
-    "category": "Veggie"
-  }, {
-    "ingredient": "Calabrese Salami",
-    "jumlah": "1849",
-    "category": "Supreme"
-  }, {
-    "ingredient": "Bacon",
-    "jumlah": "1811",
-    "category": "Classic"
-  }, {
-    "ingredient": " Italian Sausage",
-    "jumlah": "1811",
-    "category": "Classic"
-  }, {
-    "ingredient": " Chorizo Sausage",
-    "jumlah": "1811",
-    "category": "Classic"
-  }, {
-    "ingredient": "Mushrooms",
-    "jumlah": "1510",
-    "category": "Veggie"
-  }, {
-    "ingredient": " Green Peppers",
-    "jumlah": "1510",
-    "category": "Veggie"
-  }, {
-    "ingredient": " Spinach",
-    "jumlah": "1510",
-    "category": "Veggie"
-  }, {
-    "ingredient": "Tomatoes",
-    "jumlah": "1456",
-    "category": "Veggie"
-  }, {
-    "ingredient": " Jalapeno Peppers",
-    "jumlah": "1456",
-    "category": "Veggie"
-  }, {
-    "ingredient": " Cilantro",
-    "jumlah": "1456",
-    "category": "Veggie"
-  }, {
-    "ingredient": " Corn",
-    "jumlah": "1456",
-    "category": "Veggie"
-  }, {
-    "ingredient": " Chipotle Sauce",
-    "jumlah": "1456",
-    "category": "Veggie"
-  }, {
-    "ingredient": "Tomatoes",
-    "jumlah": "1451",
-    "category": "Classic"
-  }, {
-    "ingredient": " Anchovies",
-    "jumlah": "1451",
-    "category": "Classic"
-  }, {
-    "ingredient": " Green Olives",
-    "jumlah": "1451",
-    "category": "Classic"
-  }, {
-    "ingredient": "Prosciutto di San Daniele",
-    "jumlah": "1428",
-    "category": "Supreme"
-  }, {
-    "ingredient": " Arugula",
-    "jumlah": "1428",
-    "category": "Supreme"
-  }, {
-    "ingredient": "Genoa Salami",
-    "jumlah": "1422",
-    "category": "Supreme"
-  }, {
-    "ingredient": "Capocollo",
-    "jumlah": "1414",
-    "category": "Classic"
-  }, {
-    "ingredient": " Goat Cheese",
-    "jumlah": "1414",
-    "category": "Classic"
-  }, {
-    "ingredient": " Oregano",
-    "jumlah": "1414",
-    "category": "Classic"
-  }, {
-    "ingredient": "Kalamata Olives",
-    "jumlah": "1406",
-    "category": "Classic"
-  }, {
-    "ingredient": " Feta Cheese",
-    "jumlah": "1406",
-    "category": "Classic"
-  }, {
-    "ingredient": " Beef Chuck Roast",
-    "jumlah": "1406",
-    "category": "Classic"
-  }, {
-    "ingredient": "Mozzarella Cheese",
-    "jumlah": "1359",
-    "category": "Veggie"
-  }, {
-    "ingredient": " Provolone Cheese",
-    "jumlah": "1359",
-    "category": "Veggie"
-  }, {
-    "ingredient": " Smoked Gouda Cheese",
-    "jumlah": "1359",
-    "category": "Veggie"
-  }, {
-    "ingredient": " Romano Cheese",
-    "jumlah": "1359",
-    "category": "Veggie"
-  }, {
-    "ingredient": " Blue Cheese",
-    "jumlah": "1359",
-    "category": "Veggie"
-  }, {
-    "ingredient": " Green Peppers",
-    "jumlah": "1342",
-    "category": "Classic"
-  }, {
-    "ingredient": " Green Olives",
-    "jumlah": "987",
-    "category": "Veggie"
-  }, {
-    "ingredient": " Mushrooms",
-    "jumlah": "980",
-    "category": "Chicken"
-  }, {
-    "ingredient": " Asiago Cheese",
-    "jumlah": "980",
-    "category": "Chicken"
-  }, {
-    "ingredient": " Alfredo Sauce",
-    "jumlah": "980",
-    "category": "Chicken"
-  }, {
-    "ingredient": "Eggplant",
-    "jumlah": "975",
-    "category": "Veggie"
-  }, {
-    "ingredient": " Pesto Sauce",
-    "jumlah": "961",
-    "category": "Chicken"
-  }, {
-    "ingredient": "Soppressata Salami",
-    "jumlah": "957",
-    "category": "Supreme"
-  }, {
-    "ingredient": " Fontina Cheese",
-    "jumlah": "957",
-    "category": "Supreme"
-  }, {
-    "ingredient": " Mushrooms",
-    "jumlah": "957",
-    "category": "Supreme"
-  }, {
-    "ingredient": "Spinach",
-    "jumlah": "940",
-    "category": "Supreme"
-  }, {
-    "ingredient": " Kalamata Olives",
-    "jumlah": "940",
-    "category": "Supreme"
-  }, {
-    "ingredient": "Nduja Salami",
-    "jumlah": "927",
-    "category": "Supreme"
-  }, {
-    "ingredient": " Pancetta",
-    "jumlah": "927",
-    "category": "Supreme"
-  }, {
-    "ingredient": " Friggitello Peppers",
-    "jumlah": "927",
-    "category": "Supreme"
-  }, {
-    "ingredient": " Kalamata Olives",
-    "jumlah": "923",
-    "category": "Veggie"
-  }, {
-    "ingredient": " Plum Tomatoes",
-    "jumlah": "923",
-    "category": "Veggie"
-  }, {
-    "ingredient": "Brie Carre Cheese",
-    "jumlah": "480",
-    "category": "Supreme"
-  }, {
-    "ingredient": " Prosciutto",
-    "jumlah": "480",
-    "category": "Supreme"
-  }, {
-    "ingredient": " Caramelized Onions",
-    "jumlah": "480",
-    "category": "Supreme"
-  }, {
-    "ingredient": " Pears",
-    "jumlah": "480",
-    "category": "Supreme"
-  }, {
-    "ingredient": " Thyme",
-    "jumlah": "480",
-    "category": "Supreme"
-  }],
-
-  "PizzaSales":[{
+  "PizzaSales":[
+  {
     "name": "The Classic Deluxe Pizza",
-    "category": "Classic",
     "total_sales": "2453"
   }, {
     "name": "The Barbecue Chicken Pizza",
-    "category": "Chicken",
     "total_sales": "2432"
   }, {
     "name": "The Hawaiian Pizza",
-    "category": "Classic",
     "total_sales": "2422"
   }, {
     "name": "The Pepperoni Pizza",
-    "category": "Classic",
     "total_sales": "2418"
   }, {
     "name": "The Thai Chicken Pizza",
-    "category": "Chicken",
     "total_sales": "2371"
   }, {
     "name": "The California Chicken Pizza",
-    "category": "Chicken",
     "total_sales": "2370"
   }, {
     "name": "The Sicilian Pizza",
-    "category": "Supreme",
     "total_sales": "1938"
   }, {
     "name": "The Spicy Italian Pizza",
-    "category": "Supreme",
     "total_sales": "1924"
   }, {
     "name": "The Southwest Chicken Pizza",
-    "category": "Chicken",
     "total_sales": "1917"
   }, {
     "name": "The Big Meat Pizza",
-    "category": "Classic",
     "total_sales": "1914"
   }, {
     "name": "The Four Cheese Pizza",
-    "category": "Veggie",
     "total_sales": "1902"
   }, {
     "name": "The Italian Supreme Pizza",
-    "category": "Supreme",
     "total_sales": "1884"
   }, {
     "name": "The Vegetables + Vegetables Pizza",
-    "category": "Veggie",
     "total_sales": "1526"
   }, {
     "name": "The Mexicana Pizza",
-    "category": "Veggie",
     "total_sales": "1484"
   }, {
     "name": "The Napolitana Pizza",
-    "category": "Classic",
     "total_sales": "1464"
   }, {
     "name": "The Prosciutto and Arugula Pizza",
-    "category": "Supreme",
     "total_sales": "1457"
   }, {
     "name": "The Spinach and Feta Pizza",
-    "category": "Veggie",
     "total_sales": "1446"
   }, {
     "name": "The Pepper Salami Pizza",
-    "category": "Supreme",
     "total_sales": "1446"
   }, {
     "name": "The Italian Capocollo Pizza",
-    "category": "Classic",
     "total_sales": "1438"
   }, {
     "name": "The Greek Pizza",
-    "category": "Classic",
     "total_sales": "1420"
   }, {
     "name": "The Five Cheese Pizza",
-    "category": "Veggie",
     "total_sales": "1409"
   }, {
     "name": "The Pepperoni, Mushroom, and Peppers Pizza",
-    "category": "Classic",
     "total_sales": "1359"
   }, {
     "name": "The Green Garden Pizza",
-    "category": "Veggie",
     "total_sales": "997"
   }, {
     "name": "The Chicken Alfredo Pizza",
-    "category": "Chicken",
     "total_sales": "987"
   }, {
     "name": "The Italian Vegetables Pizza",
-    "category": "Veggie",
     "total_sales": "981"
   }, {
     "name": "The Chicken Pesto Pizza",
-    "category": "Chicken",
     "total_sales": "973"
   }, {
     "name": "The Spinach Pesto Pizza",
-    "category": "Veggie",
     "total_sales": "970"
   }, {
     "name": "The Soppressata Pizza",
-    "category": "Supreme",
     "total_sales": "961"
   }, {
     "name": "The Spinach Supreme Pizza",
-    "category": "Supreme",
     "total_sales": "950"
   }, {
     "name": "The Calabrese Pizza",
-    "category": "Supreme",
     "total_sales": "937"
   }, {
     "name": "The Mediterranean Pizza",
-    "category": "Veggie",
     "total_sales": "934"
   }, {
     "name": "The Brie Carre Pizza",
-    "category": "Supreme",
     "total_sales": "490"
-  }],
-
-
-"totalRevenue":[
-  {
-  "category": "Chicken",
-  "revenue": "$195919.5"
-}, {
-  "category": "Classic",
-  "revenue": "$220053.1"
-}, {
-  "category": "Veggie",
-  "revenue": "$193690.45"
-}, {
-  "category": "Supreme",
-  "revenue": "$208197"
-}
-],
-
-
-"totalOrder":[
-{
-"category": "Chicken",
-"quantity": "11050"
-}, {
-"category": "Classic",
-"quantity": "14888"
-}, {
-"category": "Veggie",
-"quantity": "11649"
-}, {
-"category": "Supreme",
-"quantity": "11987"
-}
-],
-
-
-"CombinedMetrics": [
-{
-  "tier_waktu": "Makan Siang",
-  "category": "Classic",
-  "total_sales_time": "8897"
-},
-{
-  "tier_waktu": "Makan Siang",
-  "category": "Supreme",
-  "total_sales_time": "7085"
-},
-{
-  "tier_waktu": "Makan Siang",
-  "category": "Veggie",
-  "total_sales_time": "6936"
-},
-{
-  "tier_waktu": "Makan Siang",
-  "category": "Chicken",
-  "total_sales_time": "6550"
-},
-{
-  "tier_waktu": "Makan Malam",
-  "category": "Classic",
-  "total_sales_time": "5123"
-},
-{
-  "tier_waktu": "Makan Malam",
-  "category": "Supreme",
-  "total_sales_time": "4222"
-},
-{
-  "tier_waktu": "Makan Malam",
-  "category": "Veggie",
-  "total_sales_time": "4113"
-},
-{
-  "tier_waktu": "Makan Malam",
-  "category": "Chicken",
-  "total_sales_time": "3898"
-},
-{
-  "tier_waktu": "Makan Pagi",
-  "category": "Classic",
-  "total_sales_time": "868"
-},
-{
-  "tier_waktu": "Makan Pagi",
-  "category": "Supreme",
-  "total_sales_time": "680"
-},
-{
-  "tier_waktu": "Makan Pagi",
-  "category": "Chicken",
-  "total_sales_time": "602"
-},
-{
-  "tier_waktu": "Makan Pagi",
-  "category": "Veggie",
-  "total_sales_time": "600"
-}
+  }
 ]
-
 }
