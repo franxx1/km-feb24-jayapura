@@ -1,0 +1,373 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Paradise</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image" href="images/favicon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Include DataTables CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <!-- Include DataTables JS -->
+    <script type="text/javascript" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script src="js/chart.js"></script>
+    <script src="js/tables.js"></script>
+    <script src="js/script.js"></script>
+  <!-- Include jQuery -->
+</head>
+
+<body>
+
+    <!-- SIDEBAR SECTION -->
+    <aside class="sidebar">
+        <div class="side-content">
+            <div class="profile">
+                <div class="profile-img bg-img" style="background-image: url(images/revou.jpg)"></div>
+                <h4>Team 21 - Jayapura</h4>
+                <small>jayapura21@gmail.com</small>
+            </div>
+
+            <div class="side-menu">
+                <ul>
+                    <li>
+                        <a href="#overview" class="side-menu-item">
+                            <span class="bx bx-line-chart"></span>
+                            <small>Overview</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#sales" class="side-menu-item">
+                            <span class="las la-chart-line"></span>
+                            <small>Sales</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#products" class="side-menu-item">
+                            <span class="bx bxs-component"></span>
+                            <small>Products</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#report" class="side-menu-item">
+                            <span class="las la-envelope-open"></span>
+                            <small>Report</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#insights" class="side-menu-item">
+                            <span class="las la-clipboard-list"></span>
+                            <small>Insights</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#team" class="side-menu-item">
+                            <span class="las la-users"></span>
+                            <small>Teams</small>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    </aside>
+
+    <!-- MAIN SECTION -->
+    <main>
+        <!-- Page Header -->
+        <header class="page-header">
+            <h1 class="logo">
+                <img src="images/logo.png" alt="Logo"> Pizza Paradise Dashboard
+            </h1>
+            <p>Welcome Back, Team 21 Jayapura!</p>
+            <div class="burgerMenu">
+                <div class="bars"></div>
+                <div class="bars"></div>
+                <div class="bars"></div>
+            </div>
+        </header>
+
+           <!-- Dropdown Menu -->
+           <div class="dropdown-wrapper">
+            <div class="sort-by">Sort by:</div>
+            <div class="drop-down">
+                <div class="inner-content" id="innerContent">Category
+                    <span class="material-icons icon">arrow_drop_down</span>
+                </div>
+                <select id="categoryFilter" onchange="updateCharts()">
+                    <option value="All">All</option>
+                    <option value="Classic">Classic</option>
+                    <option value="Supreme">Supreme</option>
+                    <option value="Veggie">Veggie</option>
+                    <option value="Chicken">Chicken</option>
+                </select>
+            </div>
+        </div>
+       
+        
+        <!-- Overview Section -->
+        <section id="overview" class="overview">
+            <h2 class="overview-title">Overview</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <span class="material-symbols-sharp">trending_up</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Orders</h3>
+                            <h1 id="totalOrder">0</h1> <!-- ID totalOrders ditambahkan di sini -->
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <span class="material-symbols-sharp">local_mall</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Revenue</h3>
+                            <h1 id="totalSales">$0</h1> <!-- ID totalSales ditambahkan di sini -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sales Section -->
+        <section id="sales" class="sales">
+            <h2 class="sales-title">Sales</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <div class="chart">
+                        <h3>Monthly Pizza Category Sales</h3>
+                        <canvas id="salesOvertime"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-container-bottom">
+                <div class="grid-item">
+                    <div class="chart">
+                        <h3>Pizza Sales Overtime</h3>
+                        <canvas id="salesChart"></canvas>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="chart">
+                        <h3>Pizza Size Sales</h3>
+                        <canvas id="sizeChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="products">
+            <h2 class="products-title">Products</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <div class="kartu-product">
+                        <h3>Quarterly Pizza Sales</h3>
+                        <canvas id="quarterChart" ></canvas>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="kartu-product">
+                        <h3>Lowest 5 Pizza Menu Sales</h3>
+                        <canvas id="low5Pizza"></canvas>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="kartu-product">
+                        <h3>Top 5 Pizza Menu Sales</h3>
+                        <canvas id="top5Pizza" ></canvas>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="kartu-product">
+                        <h3>Visualization Two Metrics</h3>
+                        <canvas id="combinedChart" ></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Report Section -->
+        <section id="report" class="report">
+            <h2 class="report-title">Report</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <div id="ingredientTableContainer">
+                        <h3>Most Used Ingredients</h3>
+                        <table id="ingredientTable" class="display">
+                            <thead>
+                                <tr>
+                                    <th>Ingredient</th>
+                                    <th>Usage</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Data akan ditampilkan di sini -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="pagination" id="paginationControls">
+                        <!-- Kontrol pagination akan ditampilkan di sini -->
+                    </div>
+                </div>
+                
+                <div class="grid-item">
+                    <div id="pizzaSalesTableContainer">
+                        <h3>Pizza Sales</h3>
+                        <table id="pizzaSalesTable" class="display">
+                            <thead>
+                                <tr>
+                                    <th>Pizza Name</th>
+                                    <th>Total Sales</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Data akan ditampilkan di sini -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="pagination" id="paginationControls">
+                        <!-- Kontrol pagination akan ditampilkan di sini -->
+                    </div>
+                </div>            
+            </div>
+        </section>
+
+        <!-- Insight Section -->
+        <section id="insights" class="insights">
+            <h2 class="insights-title">Insights</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <div id="insightsTableContainer">
+                        <!-- Tabel akan ditampilkan di sini -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bagian Yayang -->
+        <section id="team" class="team">
+            <h2 class="team-title">Our Teams</h2>
+            <div class="card card1">
+                <div class="images">
+                    <img src="images/Project_Leader_Data_Analisys___Software_Engineering_Fransiskus_A.png" alt="">
+                </div>
+                <div class="cardText">
+                    <h4>Fransiskus A</h4>
+                    <p>Project Leader Data Analisys & Software Engineering</p>
+                </div>
+            </div>
+            <div class="card card2">
+                <div class="images">
+                    <img src="images/Data_Visualitation___Front_End_Yayang_Uswatun_Hasanah.png" alt="">
+                </div>
+                <div class="cardText">
+                    <h4>Yayang Uswatun Hasanah</h4>
+                    <p>Data Visualitation & Front End</p>
+                </div>
+            </div>
+            <div class="card card3">
+                <div class="images">
+                    <img src="images/Data_Cleaning___Front_End_Raditya_Widi_Indarsanto.png" alt="">
+                </div>
+                <div class="cardText">
+                    <h4>Raditya Widi Indarsanto</h4>
+                    <p>Data Cleaning & Front End</p>
+                </div>
+            </div>
+            <div class="card card4">
+                <div class="images">
+                    <img src="images/Data_Cleaning___Front_End__Kyla_Kaneshia.png" alt="">
+                </div>
+                <div class="cardText">
+                    <h4>Kyla Kaneshia</h4>
+                    <p>Data Cleaning & Front End</p>
+                </div>
+            </div>
+            <div class="card card5">
+                <div class="images">
+                    <img src="images/Data_Communication___Front_End_La_Tazkia_Aulia_Wibowo.png" alt="">
+                </div>
+                <div class="cardText">
+                    <h4>Tazkia Aulia Wibowo</h4>
+                    <p>Data Communication & Front End</p>
+                </div>
+            </div>
+            <div class="card card6">
+                <div class="images">
+                    <img src="images/Data_Analysis___Picth_Deck_Team_Fardilah_A.png" alt="">
+                </div>
+                <div class="cardText">
+                    <h4>Fardilah A</h4>
+                    <p>Data Analyst & Pitch Deck</p>
+                </div>
+            </div>
+            <div class="card card7">
+                <div class="images">
+                    <img src="images/Data_Analysis___Pitch_Deck_Team_M_Juhan_A.png" alt="">
+                </div>
+                <div class="cardText">
+                    <h4>M Juhan A</h4>
+                    <p>Data Analyst & Pitch Deck</p>
+                </div>
+            </div>
+            <div class="card card8">
+                <div class="images">
+                    <img src="images/Data_Cleaning___Pitch_Deck_Team_Permaisuri_Citha.png" alt="">
+                </div>
+                <div class="cardText">
+                    <h4>Permaisuri Citha</h4>
+                    <p>Data Cleaning & Pitch Deck</p>
+                </div>
+            </div>
+            <div class="card card9">
+                <div class="images">
+                    <img src="images/Data_Visualization___Quality_Assurance_Zuhrie_Alifiansyah.png" alt="">
+                </div>
+                <div class="cardText">
+                    <h4>Zuhrie Alifiansyah</h4>
+                    <p>Data Visualization & QA</p>
+                </div>
+            </div>
+            <div class="card card10">
+                <div class="images">
+                    <img src="images/Data_Analysis___Quality_Assurance_Salsa_Yasmin.png" alt="">
+                </div>
+                <div class="cardText">
+                    <h4>Salsa Yasmin</h4>
+                    <p>Data Analysis & QA</p>
+                </div>
+            </div>
+            <div class="card card11">
+                <div class="images">
+                    <img src="images/Data_Analysis___Quality_Assurance_Juliarachmah.png" alt="">
+                </div>
+                <div class="cardText">
+                    <h4>Juliarachmah</h4>
+                    <p>Data Analysis & QA</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-content">
+                <p>&copy;Developed by Team 21 Jayapura - MSIB Batch 6</p>
+            </div>
+        </footer>
+    </main>
+
+
+</body>
+
+</html>
